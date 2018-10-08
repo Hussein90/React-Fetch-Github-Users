@@ -2,6 +2,7 @@
   "name": "react-app",
   "version": "0.1.0",
   "private": true,
+   "homepage": "https://hussein90.github.io/React-Fetch-Github-Users/",
   "dependencies": {
     "prop-types": "^15.6.1",
     "react": "^16.2.0",
@@ -14,6 +15,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "eject": "react-scripts eject"
   }
 }
