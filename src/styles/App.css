@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+ float: left;
+    height: 37px;
+    margin-top: -16px;
+}
+
+.App-header {
+  border-bottom: black 1px solid;
+
+  height: 10px;
+  padding: 20px;
+  color: black;
+}
+
+.App-title {
+ margin-top: -11px;
+  float: left;
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.menu{
+      display: -ms-inline-flexbox;
+    display: initial;
+    list-style-type: none;
+    float: right;
+    margin-top: -9px;
+}
+
+.menu li{
+  display: inline;
+  padding: 5px;
+  margin: 5px;
+}
+.title{
+  align-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.space-top{
+margin-top: 35px;
+}
+button {
+    
+    margin-top: 10px;
+    margin-left: 4px;
+}
+img.card-img-top.sidebar {
+    width: 5%;
+}
